@@ -143,8 +143,7 @@ if (!class_exists('WP_Settings_Api')) {
                     $field_name = isset($field['name']) ? $field['name'] : "";
                     $field_placeholder = isset($field['placeholder']) ? $field['placeholder'] : "";
                     $callback_class = new WP_Settings_Api_Helper();
-                    $callback = isset($field['callback']) ? $field['callback'] :
-                        array($callback_class, 'callback_' . $field_type);
+                    $callback = isset($field['callback']) ? $field['callback'] : array($callback_class, 'callback_' . $field_type);
                     $options = isset($field['options']) ? $field['options'] : array();
 
                     $args = array(
@@ -163,7 +162,6 @@ if (!class_exists('WP_Settings_Api')) {
                         'wp_settings_section',
                         $args
                     );
-
                 }
             }
 
