@@ -128,7 +128,6 @@ if (!class_exists('WP_Settings_Api')) {
                             "programming" => __('Programming', 'wp_settings_api'),
                             "reading" => __('Reading', 'wp_settings_api'),
                             "eating" => __('Eating', 'wp_settings_api'),
-
                         )
                     ),
                 ),
