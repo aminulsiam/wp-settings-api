@@ -1,9 +1,10 @@
 <?php
-
+/*
+ * Helper class  
+ */
 if (!class_exists('WP_Settings_Api_Helper')) {
     class WP_Settings_Api_Helper
     {
-
         private static function wp_settings_api_get_option()
         {
             return get_option('wp_settings_api');
